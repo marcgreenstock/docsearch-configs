@@ -7,11 +7,11 @@
   "selectors": {
     "lvl0": ".main .article h1",
     "lvl1": ".main .article h2",
-    "lvl2": ".main .article h3, .main .article td:first-child",
+    "lvl2": ".main .article h3, .main .article td:first-child, .main .article dt",
     "lvl3": ".main .article h4",
     "lvl4": ".main .article h5",
     "lvl5": ".main .article h6",
-    "text": ".main .article p, .main .article li, .main .article td:not(:first-child)"
+    "text": ".main .article p, .main .article li, .main .article td:not(:first-child), .main .article dd"
   },
   "min_indexed_level": 2,
   "conversation_id": [
